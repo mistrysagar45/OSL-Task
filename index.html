@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Map</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div id="map" onclick="myFunction()"></div>
+    <script>
+      function myFunction() {
+        alert("Please press F12 then click Array(30) and get data");
+      }
+      </script>
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASPo1VPTjmscefUG9K7XESSoSDkPt1lJo&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
+  </body>
+</html>
